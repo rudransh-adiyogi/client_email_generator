@@ -25,8 +25,8 @@ def create_streamlit_app(chain_x, portfolio):
             st.error(f"An Error Occurred: {e}")
 
 if __name__ == "__main__":
-    chain_x=Chain("llama-3.1-70b-versatile")
-    portfolio_file_path="app/resource/my_portfolio.csv"
+    chain_x=Chain("llama-3.3-70b-versatile")
+    portfolio_file_path="resource/my_portfolio.csv"
     portfolio=Portfolio(portfolio_file_path)
     st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="📧")
     create_streamlit_app(chain_x, portfolio)
