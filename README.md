@@ -24,7 +24,9 @@ I would be delighted to discuss how ABC can support Nike in achieving its goals.
 Best regards,
 
 XYZ
+
 Business Development Executive
+
 ABC
 
 ## Architecture Diagram
